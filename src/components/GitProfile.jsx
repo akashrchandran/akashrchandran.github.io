@@ -260,6 +260,8 @@ GitProfile.propTypes = {
       telegram: PropTypes.string,
       phone: PropTypes.string,
       email: PropTypes.string,
+      leetcode: PropTypes.string,
+      hashnode: PropTypes.string,
     }),
     resume: PropTypes.shape({
       fileUrl: PropTypes.string,

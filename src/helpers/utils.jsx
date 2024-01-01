@@ -161,6 +161,8 @@ export const sanitizeConfig = (config) => {
       email: config?.social?.email,
       skype: config?.social?.skype,
       telegram: config?.social?.telegram,
+      leetcode: config?.social?.leetcode,
+      hashnode: config?.social?.hashnode,
     },
     resume: {
       fileUrl: config?.resume?.fileUrl || '',

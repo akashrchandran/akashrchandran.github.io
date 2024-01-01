@@ -118,6 +118,16 @@ export interface Social {
    * Email
    */
   email?: string;
+
+  /**
+   * Leetcode
+   */
+  leetcode?: string;
+
+  /**
+   * Hashnode
+   */
+  hashnode?: string;
 }
 
 export interface Blog {
