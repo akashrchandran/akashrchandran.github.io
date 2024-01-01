@@ -239,14 +239,6 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`tel:${social.phone}`}
                 />
               )}
-              {social?.email && (
-                <ListItem
-                  icon={<RiMailFill />}
-                  title="Email:"
-                  value={social.email}
-                  link={`mailto:${social.email}`}
-                />
-              )}
               {social?.leetcode && (
                 <ListItem
                   icon={<SiLeetcode />}
@@ -261,6 +253,14 @@ const Details = ({ profile, loading, social, github }) => {
                   title="Hashnode:"
                   value={social.hashnode}
                   link={`https://${social.hashnode}.hashnode.dev`}
+                />
+              )}
+              {social?.email && (
+                <ListItem
+                  icon={<RiMailFill />}
+                  title="Email:"
+                  value={social.email}
+                  link={`mailto:${social.email}`}
                 />
               )}
             </Fragment>

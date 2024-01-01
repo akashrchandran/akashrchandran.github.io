@@ -27,10 +27,11 @@ const config = {
     website: 'https://akashrchandran.in',
     phone: '',
     email: 'chandranrakash@gmail.com',
+    leetcode: 'akashrchandran',
+    hashnode: 'akashrchandran',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://akashrchandran.in/assets/resume/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python3',
