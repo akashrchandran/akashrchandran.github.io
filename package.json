@@ -44,7 +44,7 @@
   "devDependencies": {
     "@arifszn/blog-js": "^2.0.4",
     "@vitejs/plugin-react": "^4.0.0",
-    "autoprefixer": "^10.4.4",
+    "autoprefixer": "^10.4.17",
     "axios": "^1.6.5",
     "daisyui": "^4.6.0",
     "date-fns": "^3.3.0",
