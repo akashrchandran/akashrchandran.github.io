@@ -49,7 +49,7 @@ export default [
   },
   {
     // Config files that use CommonJS
-    files: ['**/*.config.{js,mjs}', '.eslintrc.js'],
+    files: ['**/*.config.{js,mjs}'],
     languageOptions: {
       globals: {
         require: 'readonly',

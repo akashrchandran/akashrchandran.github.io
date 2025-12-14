@@ -123,7 +123,7 @@ const Details = ({ profile, loading, social, github }) => {
                   icon={<SiX />}
                   title="Twitter:"
                   value={social.twitter}
-                  link={`https://twitter.com/${social.twitter}`}
+                  link={`https://x.com/${social.twitter}`}
                 />
               )}
               {social?.mastodon && (
