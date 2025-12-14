@@ -48,7 +48,7 @@
     "axios": "^1.6.5",
     "daisyui": "^4.6.0",
     "date-fns": "^3.3.0",
-    "eslint": "^8.11.0",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
