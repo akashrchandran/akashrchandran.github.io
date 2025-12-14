@@ -67,7 +67,6 @@ const ThemeChanger = ({ theme, setTheme, loading, themeConfig }) => {
                     ),
                   ].map((item, index) => (
                     <li key={index}>
-                      {/* eslint-disable-next-line */}
                       <a
                         onClick={(e) => changeTheme(e, item)}
                         className={`${theme === item ? 'active' : ''}`}

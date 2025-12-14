@@ -128,7 +128,7 @@ const GitProfile = ({ config }) => {
       } else {
         setError(genericError);
       }
-    } catch (error2) {
+    } catch {
       setError(genericError);
     }
   };
