@@ -4,7 +4,7 @@ import {
   AiFillInstagram,
   AiFillMediumSquare,
 } from 'react-icons/ai';
-import { SiTwitter, SiLeetcode, SiHashnode } from 'react-icons/si';
+import { SiX, SiLeetcode, SiHashnode } from 'react-icons/si';
 import { CgDribbble } from 'react-icons/cg';
 import { RiPhoneFill, RiMailFill } from 'react-icons/ri';
 import { Fragment } from 'react';
@@ -120,10 +120,10 @@ const Details = ({ profile, loading, social, github }) => {
               />
               {social?.twitter && (
                 <ListItem
-                  icon={<SiTwitter />}
+                  icon={<SiX />}
                   title="Twitter:"
                   value={social.twitter}
-                  link={`https://twitter.com/${social.twitter}`}
+                  link={`https://x.com/${social.twitter}`}
                 />
               )}
               {social?.mastodon && (
